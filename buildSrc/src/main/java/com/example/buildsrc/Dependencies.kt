@@ -33,6 +33,15 @@ object Dependencies {
             val rxJava2 = "androidx.room:room-rxjava2:${Versions.room}"
             val compiler = "androidx.room:room-compiler:${Versions.room}"
         }
+
+        object Compose {
+            val composeTestJunit4 = "androidx.compose.ui:ui-test-junit4:${Versions.compose}"
+            val composeTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.compose}"
+            val activityCompose = "androidx.activity:activity-compose:${Versions.compose}"
+            val composeUi = "androidx.compose.ui:ui:${Versions.compose}"
+            val composePreview = "androidx.compose.ui:ui-tooling-preview-android:${Versions.compose}"
+            val composeMaterial = "androidx.compose.material:material:1.3.1"
+        }
     }
 
     object Android {

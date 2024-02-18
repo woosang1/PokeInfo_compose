@@ -88,3 +88,13 @@ fun DependencyHandler.implementationOrbit() {
 fun DependencyHandler.implementationSpeedDial() {
     add("implementation", Dependencies.ThirdParty.speedDial)
 }
+
+// Compose
+fun DependencyHandler.implementationCompose() {
+    add("androidTestImplementation", Dependencies.AndroidX.Compose.composeTestJunit4)
+    add("debugImplementation", Dependencies.AndroidX.Compose.composeTestManifest)
+    add("implementation", Dependencies.AndroidX.Compose.activityCompose)
+    add("implementation", Dependencies.AndroidX.Compose.composeUi)
+    add("implementation", Dependencies.AndroidX.Compose.composePreview)
+    add("implementation", Dependencies.AndroidX.Compose.composeMaterial)
+}
