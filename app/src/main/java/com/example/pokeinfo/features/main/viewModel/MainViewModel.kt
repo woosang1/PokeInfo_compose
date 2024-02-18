@@ -25,7 +25,9 @@ class MainViewModel @Inject constructor(
 ) : BaseViewModel(), ContainerHost<MainState, MainSideEffect> {
 
     override val container: Container<MainState, MainSideEffect> = container(MainState(MainInfoState.Empty))
-    private var pokemonInfo: List<PokemonInfo> = emptyList()
+    var pokemonInfo: List<PokemonInfo> = emptyList()
+
+    var test = 1
 
     fun getInfoData(limit: Int?, offset: Int?) = intent {
         if (pokemonInfo.isEmpty()) getInfoDataByServer(limit = limit, offset = offset)

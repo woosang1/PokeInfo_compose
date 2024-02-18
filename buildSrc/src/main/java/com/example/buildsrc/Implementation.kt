@@ -97,4 +97,6 @@ fun DependencyHandler.implementationCompose() {
     add("implementation", Dependencies.AndroidX.Compose.composeUi)
     add("implementation", Dependencies.AndroidX.Compose.composePreview)
     add("implementation", Dependencies.AndroidX.Compose.composeMaterial)
+    add("implementation", Dependencies.AndroidX.Compose.navigationCompose)
+    add("implementation", Dependencies.AndroidX.Compose.hiltNavigationCompose)
 }

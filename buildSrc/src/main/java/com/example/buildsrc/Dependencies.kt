@@ -41,6 +41,8 @@ object Dependencies {
             val composeUi = "androidx.compose.ui:ui:${Versions.compose}"
             val composePreview = "androidx.compose.ui:ui-tooling-preview-android:${Versions.compose}"
             val composeMaterial = "androidx.compose.material:material:1.3.1"
+            val navigationCompose = "androidx.navigation:navigation-compose:2.5.3"
+            val hiltNavigationCompose = "androidx.hilt:hilt-navigation-compose:${Versions.compose}"
         }
     }
 
